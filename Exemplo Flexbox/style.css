@@ -1,0 +1,23 @@
+.box{
+    display: flex;
+    height: 625px;
+    font-family: candara;
+}
+
+.primeira{
+    flex: 0 0 200px;
+    background-color: #f8aadc;
+    padding: 0 20px;
+}
+
+.segunda{
+    flex: 1;
+    background-color: #79e6d1;
+    padding: 0 20px;
+}
+
+.terceira{
+    flex: 0 0 150px;
+    background-color: #87cefa;
+    padding: 0 20px;
+}

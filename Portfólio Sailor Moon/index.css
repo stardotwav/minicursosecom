@@ -1,0 +1,91 @@
+/* scroll da página mais leve */
+html{
+    scroll-behavior: smooth;
+}
+
+/* configurações gerais da página */
+body{
+    margin: 0 auto;
+    padding: 0;
+    color: #000;
+    font-family: candara;
+}
+
+/* configuração de conteúdo */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* estilos da seção de descrição */
+.descricao{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fdeef8;
+    padding-bottom: 20px;
+}
+
+.descricao img{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+
+    /* deixando imagem circular */
+    border-radius: 50%;
+}
+
+/* estilos da seção de poderes */
+.poderes{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #eadef5;
+}
+
+.poderes h1{
+    text-align: center;
+    font-style: italic;
+}
+
+.poderes .boxtexto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.poderes .boxtexto img{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* estilos da seção de transformações */
+.transformacoes{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #c4ecf8;
+    padding-bottom: 20px;
+}
+
+.transformacoes h1{
+    text-align: center;
+    font-style: italic;
+}
+
+.transformacoes .boximagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 18vw);
+    grid-gap: 20px;
+}
+
+.transformacoes .boximagens p{
+    text-align: center;
+}
+
+.transformacoes .boximagens .imagem img{
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+}

@@ -1,0 +1,32 @@
+div{
+    /* alinhando o texto centralizado */
+    text-align: center;
+    /* definindo borda e cor */
+    border: 2px solid red;
+    /* definindo margem */
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1{
+    /* mudando a cor do texto */
+    color: red;
+}
+
+p{
+    /* mudando a cor do texto */
+    color: blue;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: brown;
+}

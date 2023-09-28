@@ -1,0 +1,21 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 15vw);
+    grid-gap: 20px;
+}
+
+.primeira{
+    background-color: #f8aadc;
+    padding: 0 20px;
+}
+
+.segunda{
+    background-color: #79e6d1;
+    padding: 0 20px;
+}
+
+.terceira{
+    background-color: #87cefa;
+    padding: 0 20px;
+}
